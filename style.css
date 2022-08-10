@@ -1,0 +1,59 @@
+/*
+
+
+- Almost White: hsl(0, 0%, 98%)
+- Medium Gray: hsl(0, 0%, 41%)
+- Almost Black: hsl(0, 0%, 8%)
+
+*/
+
+:root {
+    --almost_white:hsl(0, 0%, 98%);
+    --medium_gray:hsl(0,0%,41%);
+    --almost_black:hsl(0,0%,8%);
+}
+
+p {
+    font-size: 18px;
+}
+
+nav {
+    width: 100%;
+    margin: 20px 0px 0px 10px;
+}
+
+nav img {
+    float: left;
+}
+nav ul li {
+    list-style-type: none;
+    display: inline;
+    padding: 10px;
+    margin-left: 10px;
+    margin-top: 12px;
+    color: var(--medium_gray);
+    font-size: 17px;
+
+}
+
+.arrow {
+    display: inline;
+
+}
+
+
+.inline {
+    display: inline;
+
+}
+.arrow {
+    position: relative;
+    left:92px;
+    top: 8px;
+}
+
+.arrow1 {
+    margin: 0;
+    display: inline;
+}
+
